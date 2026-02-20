@@ -90,6 +90,7 @@ body {
 /* Bar Chart */
 #chart {
   margin-top: 20px;
+  color: black;
 }
 
 text {
