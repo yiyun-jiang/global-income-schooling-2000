@@ -1,3 +1,5 @@
+I used AI in this assignment for debugging and interface design exploration. I did not use AI to write or complete any components where AI use is prohibited, and I am able to explain how my code works.
+
 # Global Income & Schooling Dashboard (2000)
 This smart dashboard visualizes global average income (in USD converted by 2024 rate) and average years of schooling (for adults) in 2000 using interactive choropleth maps. Use the buttons above to switch between income and schooling layers.
 
