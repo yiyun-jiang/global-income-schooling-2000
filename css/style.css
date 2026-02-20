@@ -1,0 +1,153 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Titillium Web', serif;
+  background: #f5f5f5;
+}
+
+#map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Info Panel */
+#info {
+  z-index: 1000;
+  position: absolute;
+  width: 420px;
+  top: 1%;
+  bottom: 1%;
+  left: .5%;
+  padding: 30px 20px 40px 20px;
+  background: #343a40;
+  color: white;
+  overflow-y: auto;
+  border-radius: 4px;
+}
+
+/* social media icons */
+#info a {
+  color: lightgray;
+}
+
+#info a:hover {
+  color: white;
+  opacity: 0.3;
+}
+
+/* Title */
+#title {
+  font-size: 26px;
+  font-family: 'Oswald', sans-serif;
+  margin-bottom: 10px;
+}
+
+/* Subtitle or description */
+#desc {
+  text-align: left;
+  color: lightgray;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+/* Layer Toggle Buttons */
+.toggle-btn {
+  display: inline-block;
+  padding: 8px 14px;
+  margin-right: 8px;
+  margin-bottom: 15px;
+  background: #495057;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.2s;
+}
+
+.toggle-btn:hover {
+  background: #6c757d;
+}
+
+/* Country Info Text */
+#country-name {
+  font-size: 22px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.info-label {
+  font-weight: bold;
+  color: #ced4da;
+}
+
+.info-value {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+/* Bar Chart */
+#chart {
+  margin-top: 20px;
+}
+
+text {
+  fill: lightgray;
+}
+
+.tick line {
+  stroke: gray;
+}
+
+.c3-axis path {
+  stroke: gray;
+}
+
+/* Legend */
+#legend {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 130px;
+  background: #ffffff;
+  margin-right: 20px;
+  margin-bottom: 40px;
+  padding: 10px 20px 10px 10px;
+  border-radius: 3px;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+
+.break {
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+.dot {
+  display: inline-block;
+  margin-top: 5px;
+  border-radius: 50%;
+  opacity: 0.7;
+}
+
+.dot-label {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-style: italic;
+  font-size: 12px;
+}
+
+/* Footer */
+#footer {
+  position: absolute;
+  bottom: 0px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  font-size: 13px;
+  line-height: 150%;
+  color: lightgray;
+}
